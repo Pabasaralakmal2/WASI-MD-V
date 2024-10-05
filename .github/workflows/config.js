@@ -25,7 +25,7 @@ global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "94701839429@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Colombi";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Colombo";
 global.github = process.env.GITHUB || "https://github.com/pabasaralakmal75/WASI-MD-V2";
 global.gurl =
   process.env.GURL || "https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j";
